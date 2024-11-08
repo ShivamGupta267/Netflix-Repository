@@ -1,0 +1,506 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.background-img{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/655a9668-b002-4262-8afb-cf71e45d1956/5ff265b6-3037-44b2-b071-e81750b21783/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_large.jpg);
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+}
+.firstpage{
+    background-color: rgba(0, 0, 0, 0.553);  
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    height: 4rem;
+    width: 80%;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    margin: 0 10% 0 10%;
+}
+.logo{
+    width: 30%;   
+    display: flex;
+    justify-content: flex-start;
+    height: 2.25rem;
+    padding-left: 0.5rem;
+    
+}
+.btn-nav{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-img img{
+    height: 2.75rem;
+}
+.language-btn{
+    height: 100%;
+    width: 122px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.241);
+    padding: 0.3rem;
+    border-color: aliceblue;
+    color: white;
+    padding-right: 10%;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+.signin{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 100%;
+    border: none;
+    width: 75px;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+@media(max-width:1200px){
+   .navbar {
+        height: 4rem;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        padding: 0 ;
+        margin: 0;
+        padding-top: 0.8rem;
+    }
+    .background-img{
+        height: 95vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .firstpage{
+        height: 95vh;
+        width: 100%;
+        position: absolute;
+        
+    }
+    .btn-nav{
+        padding: 2.5rem;
+        width: 70%;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo-img img{
+        height: 2.5rem;
+        margin-left: 1.4rem;
+        
+    }
+    .btn-nav{
+        width: 70%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+        align-items: center;
+    }
+}
+.sign-in{
+    height: 55%;
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+}
+.Text1{
+    font-size: 43px;
+    font-weight: bolder;
+    color: white;
+}
+.Text2{
+    font-size: 24px;
+    color: white;
+}
+.input{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.input-text{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    height: 30%;
+    color: white;
+}
+.input-btn{
+    width: 100%;
+    height: 70%;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.input-email{
+    height: 3.5rem;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.531);
+    color: white;
+    border-radius: 6px;
+    border: 0.5px solid white;
+    margin-right: 20px;
+ }
+.input-button{
+    height: 3.5rem;
+    width: 200px;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    font-size: 28px;
+}
+@media (max-width: 949px) {
+    .logo{
+        height: 1.8rem;
+        width: 30%;
+    }
+    .logo img{
+        height: 100%;
+    }
+    .background-img{
+        height: 78vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .firstpage{
+        height: 78vh;
+        width: 100%;
+        position: absolute;
+
+    }
+    .navbar {
+        height: 4rem;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        padding: 0 ;
+        margin: 0;
+        padding-top: 0.8rem;
+    }
+    .btn-nav{
+        width: 70%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+        align-items: center;
+    }
+    .sign-in{
+        height: 55%;
+        width: 80%;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+        right: 10%;
+        text-align: center;
+    }
+    .Text1{
+        font-size: 32px;
+        color: white;
+    }
+    .Text2{
+        font-size: 22px;
+        color: white;
+        font-weight: 400;
+    }
+    .input-text{
+        text-align: center;
+        width: 100%;
+        font-size: 19px;
+        margin: 0;
+        height: 30%;
+        color: white;
+        font-weight: 400;
+    }
+}   
+@media (max-width: 598px) {
+    .logo{
+        height: 1.8rem;
+        width: 30%;
+    }
+    .logo img{
+        height: 100%;
+    }
+    .background-img{
+        height: 78vh;
+        width: 100%;
+        background-size: cover;        
+    }
+    .firstpage{
+        height: 78vh;
+        width: 100%;
+        position: absolute;
+        display: block;
+    }
+    .navbar {
+        height: 4rem;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        padding: 0 ;
+        margin: 0;
+        padding-top: 0.8rem;
+    }
+    .btn-nav{
+        width: 70%;
+        height: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0;
+        align-items: center;
+    }
+    .sign-in{
+        height: 65%;
+        width: 80%;
+        position: absolute;
+        top: 24%;
+        left: 10%;
+        right: 10%;
+        text-align: center;
+    }
+    .Text1{
+        font-size: 32px;
+        color: white;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .Text2{
+        font-size: 22px;
+        color: white;
+        font-weight: 400;
+       
+    }
+    .input-text{
+        text-align: center;
+        width: 100%;
+        font-size: 19px;
+        margin: 0;
+        height: 30%;
+        color: white;
+        font-weight: 400;
+    }
+    .input{
+      display: block;
+      
+    }
+    .input-btn{
+        position: relative;
+        top: 32%;
+        width: 100%;
+        height: 120px;
+        padding: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .input-email{
+        height: 3rem;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.531);
+        color: white;
+        border-radius: 6px;
+        border: 0.5px solid white;
+        margin-right: 20px;
+    }
+    .input-button{
+        height: 3rem;
+        width: 180px;
+        border: none;
+        border-radius: 3px;
+        background-color: red;
+        color: white;
+        font-size: 23px;
+        align-self: flex-end;
+    }
+}  
+.secondpage{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    border-top: 10px solid #232323;
+} 
+.container{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding: 50px 0;
+    align-items: center;
+} 
+.text-Second{
+    color: white;
+    width: 50%;
+}
+.text-Second h1{
+    font-size: 48px;
+    padding-bottom: 35px;
+}
+.text-Second h3{
+    font-size: 26px;
+    font-weight: 500;
+}
+.imgsecond{
+    width: 50%;
+    position: relative;
+}
+.imgsecond img{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.imgsecond video{
+    position: absolute;
+    right: 15%;
+    width: 71%;
+    top: 21%;
+}
+#image2{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+#video2{
+    position: absolute;
+    right: 19%;
+    width: 62%;
+    top: 10%;
+}
+.lastpage{
+    height: 928px;
+    width: 100%;
+    background-color: black;
+    border-top: 10px solid #232323;
+    padding-top: 8vh;
+}
+.last-container{
+    display: flex;
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.last-container h1{
+    color: rgb(255, 255, 255);
+    height: 8%;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 2%;
+}
+.imgthird{
+    width: 50%;
+    position: relative;
+}  
+.box1{
+    display: flex;
+    height: 8%;
+    width: 80%;
+    background-color: rgb(45 45 45);
+    align-items: center;
+    padding: 0.8%;
+    justify-content: space-between;
+    margin-bottom: 0.8%;
+}
+.box1:hover{
+    background-color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+.box1-text{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.plusicon{
+    width: 10%;
+    text-align: end;
+    padding-right: 1%;
+}
+.plusicon svg{
+    height: 20%;
+    width: 30%;
+    filter: invert(1);
+}
+.form{
+    display: flex;
+   
+    width: 80%;
+    height: 15%;
+    margin-top: 4%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.form-text{
+    width: 90%;
+    font-size: 125%; 
+    text-align: center; 
+    color: white; 
+}
+.form-btn{
+    width: 100%;
+    display: flex;
+   
+}
+#form-btn-of{
+    width: 40%;
+    margin-left: 20%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(15 15 15);
+    border: 1px solid rgb(94 94 94);
+    padding-left: 10px;
+}   
+.form-button{
+    width: 200px;
+    height: 50px ;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    justify-self: flex-start;
+    font-size: 1.5rem;
+    margin-left: 5px;
+    
+}
+    
+
+    
+
+
+
+
+
+
+
+
+
+
